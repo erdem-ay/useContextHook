@@ -3,7 +3,7 @@ import User from "../components/User";
 import { useUserContext } from "../context/UserContextProvider";
 
 const ShowUsers = () => {
-  const { users } = useUserContext;
+  const { users } = useUserContext();
   return (
     <div>
       <h2>User List</h2>

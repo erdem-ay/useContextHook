@@ -2,8 +2,8 @@ import { useUserContext } from "../context/UserContextProvider";
 
 const User = ({ user }) => {
   const { id, login, avatar_url, width } = user;
-  
-  const { changeWidth } = useUserContext;
+
+  const { changeWidth } = useUserContext();
 
   return (
     <div>
